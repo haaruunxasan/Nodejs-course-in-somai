@@ -1,16 +1,16 @@
 {
   "name": "jsondata",
   "version": "1.0.0",
-  "description": "",
+  "description": "saving json Data fro web page",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Abdullahi Abas",
-  "license": "MIT",
+  "author": "Abdullahi Abas Abdulkadir",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
-    "lodash": "^4.17.10"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
   }
 }

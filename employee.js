@@ -36,10 +36,14 @@ var addEmployee = (empName, empTitle, empGender) => {
     } else {
         console.log('allready saved')
     }
-    return newEmployee
+    return employeeArray
 }
 
-var savedEmployee = addEmployee('Jaamac', 'CEO', 'male')
+// var savedEmployee = addEmployee('Jaamac', 'CEO', 'male')
+
+module.exports ={
+    addEmployee
+}
 
 
 
