@@ -39,10 +39,13 @@ var addEmployee = (empName, empTitle, empGender) => {
     return employeeArray
 }
 
-// var savedEmployee = addEmployee('Jaamac', 'CEO', 'male')
+var readAllEmployee = ()=>{
+    return JSON.parse(fs.readFileSync('AllEmployee.json'))
+}
 
 module.exports ={
-    addEmployee
+    addEmployee,
+    readAllEmployee
 }
 
 
